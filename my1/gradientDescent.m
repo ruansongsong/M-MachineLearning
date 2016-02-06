@@ -3,7 +3,7 @@ function [theta,J]=gradientDescent(X,theta,y,alpha,num_iters)
   %%预测函数prediction
   m=length(y);
   %%学习率alpha
-  alpha=0.01;
+  alpha=0.001;
   %%迭代次数 收敛
   num_iters=1500;
   %%特征个数features
